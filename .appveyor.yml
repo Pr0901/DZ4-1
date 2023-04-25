@@ -20,5 +20,7 @@ install:
 
 build_script:
 
-  - ./gradlew test --info # запускаем тест, флаг --info позволяет выводить больше информации
-  - gradlew test -Dselenide.headless=true
+  - ./gradlew test --info -Dselenide.headless=true
+
+#  - ./gradlew test --info # запускаем тест, флаг --info позволяет выводить больше информации
+#  - gradlew test -Dselenide.headless=true
