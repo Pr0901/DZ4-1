@@ -17,6 +17,7 @@ public class CardDeliveryTest {
         return LocalDate.now().plusDays(days).format(DateTimeFormatter.ofPattern(pattern));
     }
 
+
     @Test
     void successfulAuthorization() {
         Configuration.holdBrowserOpen = true;
